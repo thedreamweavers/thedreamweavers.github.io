@@ -1,0 +1,216 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Yellow on hover */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #ffd700; /* Yellow button */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffd700; /* Yellow button */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f9c300; /* Darker yellow on hover */
+}
+
+.hero .btn:hover {
+    background-color: #f9c300; /* Darker yellow on hover */
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Services section */
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Events section */
+.event {
+    margin-bottom: 30px;
+}
+
+.event h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a h1 {
+    font-family: Georgia, serif;
+    text-shadow: 3px 3px #b8b8b8a6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        top: 5px;
+        padding: 5px;
+    }
+    nav a {
+        padding: 5px 10px;
+    }
+    header {
+        padding-top: 20px;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer a{
+    color: #747474a6;
+    font-size: smaller;
+}
